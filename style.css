@@ -1,0 +1,43 @@
+.page-title {
+	font-weight: 600;
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+.lab-list {
+	list-style: none;
+	margin-bottom: 20px;
+}
+
+.card-link {
+	display: block;
+	padding: 10px 12px;
+	margin-bottom: 8px;
+	border: 1px solid #ccc;
+	border-radius: 6px;
+	text-decoration: none;
+	color: #111;
+	background-color: #f2f2f2;
+}
+
+.card-link:hover {
+	background-color: #ddd;
+}
+
+.links {
+	display: flex;
+	gap: 10px;
+}
+
+.link {
+	padding: 8px 12px;
+	border: 1px solid #ccc;
+	border-radius: 6px;
+	text-decoration: none;
+	color: #111;
+	background-color: #f2f2f2;
+}
+
+.link:hover {
+	background-color: #ddd;
+}

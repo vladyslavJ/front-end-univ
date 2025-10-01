@@ -1,0 +1,61 @@
+.container {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.box {
+	width: 120px;
+	height: 280px;
+	border: 2px solid #222;
+	border-radius: 16px;
+	background: #ddd;
+}
+
+.lamp {
+	width: 80px;
+	height: 80px;
+	border: 2px solid #222;
+	border-radius: 50%;
+	background-color: #ccc;
+}
+
+.red {
+	background: #f00;
+}
+.yellow {
+	background: #ff0;
+}
+.green {
+	background: #0a5;
+}
+
+/* Task 2.1 - position */
+.box-pos {
+	position: relative;
+}
+
+.box-pos .lamp {
+	position: absolute;
+	left: calc(50% - 80px / 2);
+}
+
+.r-pos {
+	top: 9.3px;
+}
+.y-pos {
+	top: 99px;
+}
+.g-pos {
+	bottom: 9.3px;
+}
+
+/* Task 2.2 - transform */
+.r-tr {
+	transform: translate(58px, 9.3px) translate(-50%);
+}
+.y-tr {
+	transform: translate(58px, 18.6px) translate(-50%);
+}
+.g-tr {
+	transform: translate(58px, 27.9px) translate(-50%);
+}
